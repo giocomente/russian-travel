@@ -7,7 +7,7 @@
     font-display: swap;
     src: url("../vendor/fonts/InterWeb/Inter-Regular.woff2?v=3.19") format("woff2"),
             url("../vendor/fonts/InterWeb/Inter-Regular.woff?v=3.19") format("woff");
-  };
+  }
 
   @font-face {
     font-family: 'Inter';
@@ -16,7 +16,7 @@
     font-display: swap;
     src: url("../vendor/fonts/InterWeb/Inter-Bold.woff2?v=3.19") format("woff2"),
             url("../vendor/fonts/InterWeb/Inter-Bold.woff?v=3.19") format("woff");
-  };
+  }
   
   @font-face {
     font-family: 'Inter';
@@ -25,4 +25,4 @@
     font-display: swap;
     src: url("../vendor/fonts/InterWeb/Inter-Black.woff2?v=3.19") format("woff2"),
             url("../vendor/fonts/InterWeb/Inter-Black.woff?v=3.19") format("woff");
-  };
+  }
