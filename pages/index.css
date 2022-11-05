@@ -14,6 +14,12 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
+/* INTRO */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
 @font-face {
     font-family: 'Inter';
     font-style:  normal;
@@ -45,6 +51,9 @@
   .lead {
     margin: 48px 48px 0 48px;
   }
+  .intro {
+    margin: 92px auto 0 48px;  
+  }
 }
 
 
@@ -58,6 +67,10 @@
   }
   .lead__caption {
     margin: 8px 0 0 24px;
+  }
+  .intro {
+    width: 720px;
+    margin: 88px auto 0 24px;  
   }
 }
 
@@ -77,21 +90,11 @@
   }
   .lead__title {
     max-width: 288px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
     font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
   }
   .lead__subtitle {
     max-width: 288px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
     margin-top: 16px;
   }
   .lead__image {
@@ -100,4 +103,13 @@
   .lead__caption {
     margin: 8px 0 0 16px;
   }
+
+  .intro {
+    width: 288px;
+    margin: 64px auto 0 16px;  
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+}
 }
