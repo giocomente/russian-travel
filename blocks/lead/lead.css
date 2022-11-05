@@ -1,5 +1,6 @@
-.page {
-    background: #2A2C2F;
+.lead {
     display: flex;
     flex-direction: column;
+    margin: 56px 148px 0 148px;
+
 }

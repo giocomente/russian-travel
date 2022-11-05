@@ -2,9 +2,17 @@
 
 @import url(../blocks/page/page.css);
 
+/* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
+
+/* LEAD */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 @font-face {
     font-family: 'Inter';
@@ -13,7 +21,7 @@
     font-display: swap;
     src: url("../vendor/fonts/InterWeb/Inter-Regular.woff2?v=3.19") format("woff2"),
             url("../vendor/fonts/InterWeb/Inter-Regular.woff?v=3.19") format("woff");
-  }
+}
 
 @font-face {
     font-family: 'Inter';
@@ -22,7 +30,7 @@
     font-display: swap;
     src: url("../vendor/fonts/InterWeb/Inter-Bold.woff2?v=3.19") format("woff2"),
             url("../vendor/fonts/InterWeb/Inter-Bold.woff?v=3.19") format("woff");
-  }
+}
   
 @font-face {
     font-family: 'Inter';
@@ -31,12 +39,25 @@
     font-display: swap;
     src: url("../vendor/fonts/InterWeb/Inter-Black.woff2?v=3.19") format("woff2"),
             url("../vendor/fonts/InterWeb/Inter-Black.woff?v=3.19") format("woff");
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
+  .lead {
+    margin: 48px 48px 0 48px;
   }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px)  {
   .header {
     margin: 28px 24px 0 24px;
-
+  }
+  .lead {
+    margin: 0;
+    margin-top: 48px;
+  }
+  .lead__caption {
+    margin: 8px 0 0 24px;
   }
 }
 
@@ -50,6 +71,33 @@
   }
   .header__lang-link {
     font-size: 18px;
-    /* line-height: 1.5; */
-}
+  }
+  .lead {
+    margin: 48px 2px 0 2px;
+  }
+  .lead__title {
+    max-width: 288px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .lead__subtitle {
+    max-width: 288px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+  }
+  .lead__image {
+    margin-top: 40px;
+  }
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
 }

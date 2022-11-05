@@ -1,0 +1,11 @@
+.lead__subtitle {
+    margin: 0 auto;
+    max-width: 640px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
