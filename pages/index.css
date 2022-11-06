@@ -69,7 +69,7 @@
     margin: 8px 0 0 24px;
   }
   .intro {
-    width: 720px;
+    /* max-width: 720px; */
     margin: 88px auto 0 24px;  
   }
 }
@@ -105,11 +105,11 @@
   }
 
   .intro {
-    width: 288px;
+    /* min-width: 288px; */
     margin: 64px auto 0 16px;  
   }
   .intro__title {
     font-size: 32px;
     line-height: 1.09;
-}
+  }
 }
