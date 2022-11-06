@@ -66,7 +66,7 @@
     margin-top: 48px;
   }
   .lead__caption {
-    margin: 8px 0 0 24px;
+    margin: 8px auto 0 24px;
   }
   .intro {
     /* max-width: 720px; */
@@ -75,6 +75,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px)  {
+  /* HEADER */
   .header {
     margin: 16px 16px 0 16px;
   }
@@ -85,25 +86,28 @@
   .header__lang-link {
     font-size: 18px;
   }
+  /* LEAD */
   .lead {
     margin: 48px 2px 0 2px;
   }
   .lead__title {
     max-width: 288px;
     font-size: 40px;
+    line-height: 1.1;
   }
   .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
+    line-height: 1.25;
     margin-top: 16px;
   }
   .lead__image {
     margin-top: 40px;
   }
   .lead__caption {
-    margin: 8px 0 0 16px;
+    margin: 8px auto 0 16px;
   }
-
+  /* INTRO */
   .intro {
     /* min-width: 288px; */
     margin: 64px auto 0 16px;  
