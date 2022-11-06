@@ -69,7 +69,6 @@
     margin: 8px auto 0 24px;
   }
   .intro {
-    /* max-width: 720px; */
     margin: 88px auto 0 24px;  
   }
 }
@@ -85,6 +84,7 @@
   }
   .header__lang-link {
     font-size: 18px;
+    line-height: 1.11;
   }
   /* LEAD */
   .lead {
@@ -109,7 +109,6 @@
   }
   /* INTRO */
   .intro {
-    /* min-width: 288px; */
     margin: 64px auto 0 16px;  
   }
   .intro__title {
