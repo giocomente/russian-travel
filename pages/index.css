@@ -1,9 +1,14 @@
+/* VENDOR */
+@import url(../vendor/fonts/InterWeb/inter.css);
 @import url(../vendor/normalize.css);
 
+/* PAGE */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
@@ -20,47 +25,24 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../vendor/fonts/InterWeb/Inter-Regular.woff2?v=3.19") format("woff2"),
-            url("../vendor/fonts/InterWeb/Inter-Regular.woff?v=3.19") format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../vendor/fonts/InterWeb/Inter-Bold.woff2?v=3.19") format("woff2"),
-            url("../vendor/fonts/InterWeb/Inter-Bold.woff?v=3.19") format("woff");
-}
-  
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("../vendor/fonts/InterWeb/Inter-Black.woff2?v=3.19") format("woff2"),
-            url("../vendor/fonts/InterWeb/Inter-Black.woff?v=3.19") format("woff");
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px)  {
+@media screen and (max-width: 1279px)  {
+  /* LEAD */
   .lead {
     margin: 48px 48px 0 48px;
   }
+  /* INTRO */
   .intro {
     margin: 92px auto 0 48px;  
   }
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+@media screen and (max-width: 1023px)  {
+  /* HEADER */
   .header {
-    margin: 28px 24px 0 24px;
+    padding: 28px 24px 0 24px;
   }
+  /* LEAD */
   .lead {
     margin: 0;
     margin-top: 48px;
@@ -68,15 +50,16 @@
   .lead__caption {
     margin: 8px auto 0 24px;
   }
+  /* INTRO */
   .intro {
     margin: 88px auto 0 24px;  
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px)  {
+@media screen and (max-width: 767px)  {
   /* HEADER */
   .header {
-    margin: 16px 16px 0 16px;
+    padding: 16px 16px 0 16px;
   }
   .header__logo {
     width: 142px;
