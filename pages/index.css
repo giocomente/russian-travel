@@ -32,7 +32,7 @@
   }
   /* INTRO */
   .intro {
-    margin: 92px auto 0 48px;  
+    padding: 92px 0 0 48px;  
   }
 }
 
@@ -52,7 +52,8 @@
   }
   /* INTRO */
   .intro {
-    margin: 88px auto 0 24px;  
+    max-width: 100%;
+    padding: 88px 24px 0 24px;  
   }
 }
 
@@ -92,7 +93,8 @@
   }
   /* INTRO */
   .intro {
-    margin: 64px auto 0 16px;  
+    max-width: 100%;
+    padding: 64px 16px 0 16px;  
   }
   .intro__title {
     font-size: 32px;
