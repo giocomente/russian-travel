@@ -28,7 +28,7 @@
 @media screen and (max-width: 1279px)  {
   /* LEAD */
   .lead {
-    margin: 48px 48px 0 48px;
+    padding: 48px 48px 0 48px;
   }
   /* INTRO */
   .intro {
@@ -44,8 +44,8 @@
   }
   /* LEAD */
   .lead {
-    margin: 0;
-    margin-top: 48px;
+    padding: 0;
+    padding-top: 48px;
   }
   .lead__caption {
     margin: 8px auto 0 24px;
@@ -71,7 +71,7 @@
   }
   /* LEAD */
   .lead {
-    margin: 48px 2px 0 2px;
+    padding: 48px 2px 0 2px;
   }
   .lead__title {
     max-width: 288px;
