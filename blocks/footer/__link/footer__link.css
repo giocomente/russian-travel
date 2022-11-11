@@ -5,7 +5,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.12;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     margin: 0;
     margin-right: 18px;
     text-align: center;
@@ -22,7 +22,7 @@
 @media screen and (max-width: 767px)  {
     .footer__link {
         font-size: 24px;
-        line-height: 1.00; 
+        line-height: 1.00;
         margin: 0;
         margin-bottom: 32px;
         text-align: start;
