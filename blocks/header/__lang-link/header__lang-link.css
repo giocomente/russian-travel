@@ -9,10 +9,6 @@
     margin-left: 18px;
 }
 
-.header__lang-link:hover {
-    border-bottom: 1px solid white;
-}
-
 @media screen and (max-width: 767px)  {
     .header__lang-link {
       font-size: 18px;
