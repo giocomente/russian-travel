@@ -1,6 +1,7 @@
 ﻿.photo-grid {
     margin: 0;
     padding: 92px 48px 0 48px;
+    list-style-type: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
